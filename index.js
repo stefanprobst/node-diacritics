@@ -9,13 +9,16 @@ var replacementList = [
     chars: "\u07C0",
   }, {
     base: 'A',
-    chars: "\u24B6\uFF21\u00C0\u00C1\u00C2\u1EA6\u1EA4\u1EAA\u1EA8\u00C3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\u00C4\u01DE\u1EA2\u00C5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F",
+    chars: "\u24B6\uFF21\u00C0\u00C1\u00C2\u1EA6\u1EA4\u1EAA\u1EA8\u00C3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\u01DE\u1EA2\u00C5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F",
   }, {
     base: 'AA',
     chars: "\uA732",
   }, {
     base: 'AE',
     chars: "\u00C6\u01FC\u01E2",
+  }, {
+    base: 'Ae',
+    chars: "\u00C4",
   }, {
     base: 'AO',
     chars: "\uA734",
@@ -95,6 +98,9 @@ var replacementList = [
     base: 'OE',
     chars: "\u0152",
   }, {
+    base: 'Oe',
+    chars: "\u00D6",
+  }, {
     base: 'OI',
     chars: "\u01A2",
   }, {
@@ -128,6 +134,9 @@ var replacementList = [
     base: 'U',
     chars: "\u24CA\uFF35\xD9\xDA\xDB\u0168\u1E78\u016A\u1E7A\u016C\xDC\u01DB\u01D7\u01D5\u01D9\u1EE6\u016E\u0170\u01D3\u0214\u0216\u01AF\u1EEA\u1EE8\u1EEE\u1EEC\u1EF0\u1EE4\u1E72\u0172\u1E76\u1E74\u0244",
   }, {
+    base: 'Ue',
+    chars: "\u00DC",
+  }, {
     base: 'V',
     chars: "\u24CB\uFF36\u1E7C\u1E7E\u01B2\uA75E\u0245",
   }, {
@@ -147,13 +156,13 @@ var replacementList = [
     chars: "\u24CF\uFF3A\u0179\u1E90\u017B\u017D\u1E92\u1E94\u01B5\u0224\u2C7F\u2C6B\uA762",
   }, {
     base: 'a',
-    chars: "\u24D0\uFF41\u1E9A\u00E0\u00E1\u00E2\u1EA7\u1EA5\u1EAB\u1EA9\u00E3\u0101\u0103\u1EB1\u1EAF\u1EB5\u1EB3\u0227\u01E1\u00E4\u01DF\u1EA3\u00E5\u01FB\u01CE\u0201\u0203\u1EA1\u1EAD\u1EB7\u1E01\u0105\u2C65\u0250\u0251",
+    chars: "\u24D0\uFF41\u1E9A\u00E0\u00E1\u00E2\u1EA7\u1EA5\u1EAB\u1EA9\u00E3\u0101\u0103\u1EB1\u1EAF\u1EB5\u1EB3\u0227\u01E1\u01DF\u1EA3\u00E5\u01FB\u01CE\u0201\u0203\u1EA1\u1EAD\u1EB7\u1E01\u0105\u2C65\u0250\u0251",
   }, {
     base: 'aa',
     chars: "\uA733",
   }, {
     base: 'ae',
-    chars: "\u00E6\u01FD\u01E3",
+    chars: "\u00E6\u01FD\u01E3\u00E4",
   }, {
     base: 'ao',
     chars: "\uA735",
@@ -240,7 +249,7 @@ var replacementList = [
     chars: "\u24DE\uFF4F\xF2\xF3\xF4\u1ED3\u1ED1\u1ED7\u1ED5\xF5\u1E4D\u022D\u1E4F\u014D\u1E51\u1E53\u014F\u022F\u0231\xF6\u022B\u1ECF\u0151\u01D2\u020D\u020F\u01A1\u1EDD\u1EDB\u1EE1\u1EDF\u1EE3\u1ECD\u1ED9\u01EB\u01ED\xF8\u01FF\uA74B\uA74D\u0275\u0254\u1D11",
   }, {
     base: 'oe',
-    chars: "\u0153",
+    chars: "\u0153\u00F6",
   }, {
     base: 'oi',
     chars: "\u01A3",
@@ -277,6 +286,9 @@ var replacementList = [
   }, {
     base: 'u',
     chars: "\u24E4\uFF55\xF9\xFA\xFB\u0169\u1E79\u016B\u1E7B\u016D\xFC\u01DC\u01D8\u01D6\u01DA\u1EE7\u016F\u0171\u01D4\u0215\u0217\u01B0\u1EEB\u1EE9\u1EEF\u1EED\u1EF1\u1EE5\u1E73\u0173\u1E77\u1E75\u0289",
+  }, {
+    base: 'ue',
+    chars: "\u00FC",
   }, {
     base: 'v',
     chars: "\u24E5\uFF56\u1E7D\u1E7F\u028B\uA75F\u028C",
